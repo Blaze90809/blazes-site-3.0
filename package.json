@@ -1,0 +1,23 @@
+{
+  "name": "templated-urban",
+  "version": "1.0.0",
+  "description": "Static personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blaze90809/blazes-site-3.0.git"
+  },
+  "author": "Blaze Fugina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blaze90809/blazes-site-3.0/issues"
+  },
+  "homepage": "https://github.com/Blaze90809/blazes-site-3.0#readme",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "jqueryrouter": "^2.1.0"
+  }
+}
