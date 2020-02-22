@@ -4,11 +4,11 @@ myApp.config(function($routeProvider, $locationProvider){
     $locationProvider.hashPrefix('');
     $routeProvider
     .when('', {
-        templateUrl: '/views/index.html',
+        templateUrl: 'home.html',
         controller: 'HomeController as hc'
     })
     .when('/experience', {
-        templateUrl: '/views/generic.html',
+        templateUrl: 'generic.html',
         controller: 'AboutController as bc'
     })
     .otherwise({
