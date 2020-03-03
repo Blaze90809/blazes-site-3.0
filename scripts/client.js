@@ -3,7 +3,7 @@ var myApp = angular.module('myApp', ['ngRoute']);
 myApp.config(function($routeProvider, $locationProvider){
     $locationProvider.hashPrefix('');
     $routeProvider
-    .when('', {
+    .when('/', {
         templateUrl: '/views/home.html',
         controller: 'HomeController as hc'
     })
